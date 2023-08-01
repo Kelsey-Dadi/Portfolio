@@ -71,6 +71,19 @@ button {
     justify-content: center;
 }
 
+
+.projectCard {
+    display: inline-block;
+    margin: 36px;
+    background-color: #F1E1E7;
+    color: #900C3F;
+    border-radius: 10px;
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+
+}
+
 footer {
   background-color: white;
   padding: 5px;
