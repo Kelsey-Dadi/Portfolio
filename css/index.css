@@ -29,7 +29,7 @@ header li {
 }
 
 .logo{
-      width: 25%;
+    width: 25%;
 }
 
 .searchBar {
@@ -68,21 +68,27 @@ button {
 
 .resumeButton {
   display: flex;
-    justify-content: center;
+  justify-content: center;
 }
 
+.allCards{
+    display: flex;
+    align-items: stretch;
+    margin: 36px;
 
+}
 .projectCard {
     display: inline-block;
-    margin: 36px;
+    margin-right: 16px;
     background-color: #F1E1E7;
     color: #900C3F;
     border-radius: 10px;
     font-size: 20px;
-    display: flex;
-    justify-content: center;
-
+    width: 33%;
+    padding: 100px;
+    text-align: center;
 }
+
 
 footer {
   background-color: white;
